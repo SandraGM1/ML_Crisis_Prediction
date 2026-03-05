@@ -117,6 +117,46 @@ def relleno_nulos_wrapper(df,how = 'mean'):
     lista_cols = step2(df)
     return relleno_nulos_media_pais(df,lista_paises,lista_cols, how)
 
+# Seleccion de features con correlacion > 70%
+
+def step2(df):
+    lista_cols = []
+    cols_base = ['Country Name','Country Code','year', 'count_null', 'some_null','crisis_pred']
+    for col in df.columns:
+        if col not in cols_base:
+            lista_cols.append(col)
+    return lista_cols
+
+
+def features_corr(df,lista_cols,criterio_col = 0.7):
+    import numpy as np
+    excluidas = []
+    corr_numeric = df[lista_cols].corr(numeric_only = True)
+    
+    for col in lista_cols:
+        print(f"Comprobando colinealidad de {col}")
+        if col not in excluidas:
+            for col_2, valor_corr in corr_numeric[col].items():
+                print(f"\tComprobando {col} con {col_2}")
+                if col != col_2 and col_2 in lista_cols:
+                    if np.abs(valor_corr) >= criterio_col:
+                        print(f"\t\t--> {col} correla con {col_2} al {valor_corr:0.4f}, EXCLUIMOS {col_2} <--")
+                        excluidas.append(col_2)
+                    else:
+                        print(f"\t\t{col} correla con {col_2} al {valor_corr:0.4f}, mantenemos {col_2}")
+                elif col == col_2:
+                    print("\t\tSon la misma variable, no comprobamos")
+    
+        elif col in excluidas:
+            print(f"\tLa columna {col} ya ha sido excluida")
+    
+    excluidas = list(set(excluidas))
+    return excluidas
+
+
+def features_corr_wrapper(df):
+    lista_cols = step2(df)
+    return features_corr(df,lista_cols,criterio_col = 0.7)
 
 # CLASES
 import pandas as pd
