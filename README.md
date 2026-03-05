@@ -4,7 +4,7 @@ En una era marcada por múltiples crisis e incertidumbre, los datos históricos 
 
 En este proyecto de Machine Learning desarrollamos un modelo capaz de predecir la probabilidad de que un país experimente una crisis en un año determinado, utilizando indicadores económicos, financieros, comerciales, y laborales.
 
-Los datos utilizados provienen principalmente de **indicadores macroeconómicos del Banco Mundial**, combinados on información histórica de crisis financieras obtenida de **Leaven & Valencia (IMF)**.
+Los datos utilizados provienen principalmente de **indicadores macroeconómicos del Banco Mundial**, combinados con información histórica de crisis financieras obtenida de **Leaven & Valencia (IMF)**.
 
 El objetivo final del modelo es **identificar de forma temprana posibles crisis**, permitiendo mejorar la capacidad de análisis y anticipación ante eventos económicos adversos.
 
@@ -14,11 +14,10 @@ El objetivo final del modelo es **identificar de forma temprana posibles crisis*
 ---
 - [Descripción](#descripción)
 - [Características del Proyecto](#características-del-proyecto)
-- [Estructura del repositorio]
+- [Estructura del repositorio](#estructurea
 - [Tecnologías utilizadas](#tecnologías-utilizadas)
-- [Instalación] 
-- Uso
-- [Contribuciones] (#con)
+- [Instrucciones de reproducción](#intrucciones-de-reproducción)
+- [Principales resultados](#principales-resultados)
 - [Autores](#autores)
 
 ## Descripción
@@ -125,6 +124,6 @@ Este enfoque es habitual en **modelos de alerta temprana financiera o económica
 
 ## Autores
 
-Paco de las Cuevas (LinkedIn | GitHub)  
+Francisco de las Cuevas (LinkedIn | GitHub)  
 Sandra García Moreno (LinkedIn | GitHub)  
 Sergi de la Cruz Núñez (LinkedIn | GitHub)  
