@@ -13,10 +13,10 @@ El objetivo final del modelo es **identificar de forma temprana posibles crisis*
 ## 📑 Tabla de Contenidos
 ---
 - [Descripción](#descripción)
-- [Características del Proyecto](#-características-del-proyecto)
-- [Estructura del repositorio](#-estructura-del-repositorio)
+- [Características del Proyecto](#%EF%B8%8F-características-del-proyecto)
+- [Estructura del repositorio](#-estructura-de-repositorio)
 - [Tecnologías utilizadas](#-tecnologías-utilizadas)
-- [Instrucciones de reproducción](#-instrucciones-de-reproducción)
+- [Instrucciones de reproducción](#%EF%B8%8F-instrucciones-de-reproducción)
 - [Principales resultados](#-principales-resultados)
 - [Autores](#autores)
 
