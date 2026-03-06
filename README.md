@@ -131,7 +131,7 @@ Sergi de la Cruz Núñez (LinkedIn | GitHub)
 <hr style="height:6px;border:none;color:#333;background-color:#333;">
 <hr style="height:6px;border:none;color:#333;background-color:#333;">
 
-🌍 World Crisis Predictor
+# 🌍 World Crisis Predictor
 
 In an era marked by multiple crises and uncertainty, historical country data can provide valuable insights for anticipating potential future crises.
 
