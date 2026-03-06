@@ -148,10 +148,10 @@ The ultimate goal of the model is to **identify potential crises early**, improv
 ---
 - [Description](#description)
 - [Project Features](#%EF%B8%8F-project-features)
-- [Repository Structure](#-repositary-structure)
-- [Technologies Used](#-technologies-used)
-- [Reproduction Instructions](#%EF%B8%8F-reproduction-instructions)
-- [Main Results](#-main-results)
+- [Repository Structure](#-repository-structure)
+- [Tech Stack](#-tech-stack)
+- [Getting Started](#%EF%B8%8F-getting-started)
+- [Results](#-results)
 - [Authors](#authors)
 
 ## Description
@@ -211,13 +211,13 @@ src/
 └── utils/  
     Código auxiliar reutilizable (funciones, clases y scripts)  
 ```
-## 🛠 Technologies Used
+## 🛠 Tech Stack
 
 **Languages:**: `python`
 
 **Main libraries**: `numpy, pandas, scikit-learn, matplotlib, seaborn, (incluir modelos)`
 
-## ▶️ Reproduction Instructions
+## ▶️ Getting Started
 
 1. Clone the repository
 ```
@@ -233,7 +233,7 @@ main.ipynb
 ```
 This notebook allows you to reproduce the complete project pipeline.
 
-## 📊 Main Results
+## 📊 Results
 
 The model was evaluated using precision, recall, and F1-score for both classes:
 - Class 0: No crisis
