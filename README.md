@@ -4,7 +4,7 @@ En una era marcada por múltiples crisis e incertidumbre, los datos históricos 
 
 En este proyecto de **Machine Learning** desarrollamos un modelo capaz de **predecir la probabilidad de que un país experimente una crisis en un año determinado**, utilizando indicadores económicos, financieros, comerciales, y laborales.
 
-Los datos utilizados provienen principalmente de **indicadores macroeconómicos del Banco Mundial**, combinados con información histórica de crisis financieras obtenida de **Leaven & Valencia (IMF)**, una base de datos identifica episodios de crisis financieras sistémicas en distintos países y años.
+Los datos utilizados provienen principalmente de **indicadores macroeconómicos del Banco Mundial**, combinados con información histórica de crisis financieras obtenida de **Leaven & Valencia (IMF)**, una base de datos que identifica episodios de crisis financieras sistémicas en distintos países y años.
 
 El objetivo final del modelo es **identificar de forma temprana posibles crisis**, permitiendo mejorar la capacidad de análisis y anticipación ante eventos económicos adversos.
 
@@ -27,7 +27,7 @@ Dado que las crisis son eventos poco frecuentes pero con gran impacto, el modelo
 
 ## ⚙️ Características del Proyecto
 
-- **Construcción del dataset**:
+- **Construcción del dataset**  
 Se ha creado un dataset a partir de **indicadores macroeconómicos del Banco Mundial (World Bank)** seleccionados por su relevancia para el análisis de crisis económicas.
 
 Las variables incluyen indicadores relacionados con:
@@ -42,7 +42,7 @@ Las variables incluyen indicadores relacionados con:
 
 El **target (variable objetivo)** se ha obtenido a partir de la base de datos de crisis financieras de **Laeven & Valencia (IMF)**.
 
-- **Preprocesamiento e Ingeniería de Características**:
+- **Preprocesamiento e Ingeniería de Características**  
 El dataset ha pasado por varias fases de preparación: 
   - Selección y priorización de variables mediante análisis de correlación y visualización 
   - Agrupación conceptual de indicadores económicos
@@ -51,10 +51,10 @@ El dataset ha pasado por varias fases de preparación:
   - Eliminación de variables poco informativas
   - Exclusión de países con **insuficiente disponibilidad de datos**
 
-- **Modelado y Optimización**
+- **Modelado y Optimización**  
 Varios **modelos de clasificación** fueron entrenados para predecir la ocurrencia de crisis económicas. Posteriormente se realizó un proceso de optimización de hiperparámetros para mejorar el rendimiento del modelo. La evaluación se realizó utilizando diferentes métricas, priorizando especialmente la **Sensibilidad de la clase positiva (crisis)**. Esto se debe a que en problemas de riesgo financiero es más importante **detectar la mayor cantidad posible de crisis reales**, incluso a costa de aceptar algunos falsos positivos.
 
-- **Implementación**
+- **Implementación**  
 El modelo final seleccionado fue guardado par uso posterior mediante joblib, permitiendo su reutilización en futuras predicciones o integración en sistemas de análisis.
 
 ---
