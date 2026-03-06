@@ -50,7 +50,7 @@ El dataset ha pasado por varias fases de preparación:
   - Exclusión de países con **insuficiente disponibilidad de datos**
 
 - **Modelado y Optimización**
-Se entrenaros varios **modelos de clasificación** () ypara predecir la ocurrencia de crisis económicas. Posteriormente se realizó un proceso de oprimización de hiperparámetros para mejorar el rendimiento del modlo. La evaluación se realizó utilizando diferentes métricas, priorizando especialmente el **Recall de la clase positiva (crisis)**. Esto se debe a que en problemas de riesgo financiero es más importante **detectar la mayor cantidad posible de crisis reales**, incluso a costa de aceptar algunos falsos positivos.
+Varios **modelos de clasificación** fueron entrenados para predecir la ocurrencia de crisis económicas. Posteriormente se realizó un proceso de optimización de hiperparámetros para mejorar el rendimiento del modelo. La evaluación se realizó utilizando diferentes métricas, priorizando especialmente la **Sensibilidad de la clase positiva (crisis)**. Esto se debe a que en problemas de riesgo financiero es más importante **detectar la mayor cantidad posible de crisis reales**, incluso a costa de aceptar algunos falsos positivos.
 
 - **Implementación**
 El modelo final seleccionado fue guardado par uso posterior mediante joblib, permitiendo su reutilización en futuras predicciones o integración en sistemas de análisis.
@@ -77,8 +77,7 @@ src/
 ```
 ## 🛠 Tecnologías utilizadas
 
-**Lenguajes:** 
-- `python`
+**Lenguajes:**: `python`
 
 **Librerías principales**: `numpy, pandas, scikit-learn, matplotlib, seaborn, (incluir modelos)`
 
@@ -174,19 +173,19 @@ The variables include indicators related to:
 
 The **target variable** was obtained from the financial crisis database compiled by **Laeven & Valencia (IMF)**.
 
-- **Preprocessing and Feature Engineering**
-The dataset went through several preparation stages
-- Variable selection and prioritization through correlation analysis and visualization
-- Conceptual grouping of economic indicators
-- Handling missing values
-- Statistical transformation using Yeo-Johnson
-- Removal of low-information variables
-- Exclusion of countries with insufficient data availability
+- **Preprocessing and Feature Engineering**  
+The dataset went through several preparation stages:
+  - Variable selection and prioritization through correlation analysis and visualization
+  - Conceptual grouping of economic indicators
+  - Handling missing values
+  - Statistical transformation using Yeo-Johnson
+  - Removal of low-information variables
+  - Exclusion of countries with insufficient data availability
 
-- **Modeling and Optimization**
+- **Modeling and Optimization**  
 Several **classification models** were trained to predict the occurrence of economic crises. Afterwards, a hyperparameter optimization process was carried out to improve model performance. Evaluation was performed using different metrics, with particular emphasis on the **Recall of the positive class (crisis)**. This is because in financial risk problems it is more important to **detect as many real crises as possible**, even if it means accepting some false positives.
 
-- **Implementation**
+- **Implementation**  
 The final selected model was saved for future use using joblib, allowing it to be reused for future predictions or integrated into analytical systems.
 
 ---
@@ -210,8 +209,7 @@ src/
 ```
 ## 🛠 Technologies Used
 
-**Languages:** 
-- `python`
+**Languages:**: `python`
 
 **Main libraries**: `numpy, pandas, scikit-learn, matplotlib, seaborn, (incluir modelos)`
 
@@ -243,14 +241,14 @@ This behavior is expected and desirable in risk prediction problems, where **fai
 
 The final model therefore prioritizes:
 
-✔ High sensitivity to economic crises
-✔ Early warning capability
-⚠ At the cost of generating more crisis predictions that may not actually occur
+✔ High sensitivity to economic crises  
+✔ Early warning capability  
+⚠ At the cost of generating more crisis predictions that may not actually occur  
 
 This approach is common in **financial or economic early warning models**, where the primary objective is **not to overlook critical events**.
 
 ## Authors
 
-Francisco de las Cuevas (LinkedIn | GitHub)
-Sandra García Moreno (LinkedIn | GitHub)
-Sergi de la Cruz Núñez (LinkedIn | GitHub)
+Francisco de las Cuevas (LinkedIn | GitHub)  
+Sandra García Moreno (LinkedIn | GitHub)  
+Sergi de la Cruz Núñez (LinkedIn | GitHub)  
