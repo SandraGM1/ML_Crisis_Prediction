@@ -35,8 +35,10 @@ Las variables incluyen indicadores relacionados con:
 - Sistema financiero y liquidez
 - Sector externo
 - Deuda y sostenibilidad externa
-- Crecimiento económico
-- Inflación
+- Actividad económica
+- Inversión y formación de capital
+- Inflación y precios
+- Variable objetivo
 
 El **target (variable objetivo)** se ha obtenido a partir de la base de datos de crisis financieras de **Laeven & Valencia (IMF)**.
 
@@ -165,11 +167,13 @@ A dataset was created using World Bank macroeconomic indicators, selected for th
 
 The variables include indicators related to:
 
-- Financial system and liquidity
-- External sector
-- Debt and external sustainability
-- Economic growth
-- Inflation
+- Financial System and Liquidity
+- External Sector
+- Debt and External Sustainability
+- Economical Activity
+- Investment and Capital Formation
+- Inflation and Prizes
+- Target Feature
 
 The **target variable** was obtained from the financial crisis database compiled by **Laeven & Valencia (IMF)**.
 
