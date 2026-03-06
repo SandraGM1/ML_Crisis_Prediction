@@ -75,7 +75,11 @@ src/
 │   Notebooks utilizados para exploración, desarrollo y experimentación  
 │
 └── utils/  
-    Código auxiliar reutilizable (funciones, clases y scripts)  
+    Código auxiliar reutilizable (funciones, clases y scripts)
+
+README.md
+main.ipynb
+presentacion.pdf
 ```
 ## 🛠 Tecnologías utilizadas
 
@@ -91,13 +95,7 @@ src/
 git clone <repo_url>
 ```
 
-2. Instalar dependencias
-
-```
-pip install -r requirements.txt
-```
-
-3. Ejecutar el notebook principal
+2. Ejecutar el notebook principal
 
 ```
 main.ipynb
@@ -209,7 +207,11 @@ src/
 │   Notebooks utilizados para exploración, desarrollo y experimentación  
 │
 └── utils/  
-    Código auxiliar reutilizable (funciones, clases y scripts)  
+    Código auxiliar reutilizable (funciones, clases y scripts)
+
+README.md
+main.ipynb
+presentacion.pdf
 ```
 ## 🛠 Tech Stack
 
@@ -223,11 +225,7 @@ src/
 ```
 git clone <repo_url>
 ```
-2. Install dependencies
-```
-pip install -r requirements.txt
-```
-3. Run the main notebook
+2. Run the main notebook
 ```
 main.ipynb
 ```
