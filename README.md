@@ -4,7 +4,7 @@ En una era marcada por múltiples crisis e incertidumbre, los datos históricos 
 
 En este proyecto de **Machine Learning** desarrollamos un modelo capaz de **predecir la probabilidad de que un país experimente una crisis en un año determinado**, utilizando indicadores económicos, financieros, comerciales, y laborales.
 
-Los datos utilizados provienen principalmente de **indicadores macroeconómicos del Banco Mundial**, combinados con información histórica de crisis financieras obtenida de **Leaven & Valencia (IMF)**.
+Los datos utilizados provienen principalmente de **indicadores macroeconómicos del Banco Mundial**, combinados con información histórica de crisis financieras obtenida de **Leaven & Valencia (IMF)**, una base de datos identifica episodios de crisis financieras sistémicas en distintos países y años.
 
 El objetivo final del modelo es **identificar de forma temprana posibles crisis**, permitiendo mejorar la capacidad de análisis y anticipación ante eventos económicos adversos.
 
@@ -138,7 +138,7 @@ In an era marked by multiple crises and uncertainty, historical country data can
 
 In this **Machine Learning** project, we developed a model capable of **predicting the probability that a country will experience a crisis in a given year**, using economic, financial, trade, and labor indicators.
 
-The data used comes mainly from **World Bank macroeconomic indicators**, combined with historical financial crisis data obtained from **Laeven & Valencia (IMF)**.
+The data used in this project come primarily from **macroeconomic indicators provided by the World Bank**, combined with historical information on financial crises from **Laeven & Valencia (IMF)**, a database that identifies episodes of **systemic financial crises** across different countries and years.
 
 The ultimate goal of the model is to **identify potential crises early**, improving the capacity for analysis and anticipation of adverse economic events.
 
