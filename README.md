@@ -92,7 +92,7 @@ presentacion.pdf
 1. Clonar el repositorio
 
 ```
-git clone <repo_url>
+git clone https://github.com/SandraGM1/ML_Crisis_Prediction.git
 ```
 
 2. Ejecutar el notebook principal
@@ -105,7 +105,7 @@ Este notebook permite reproducir el pipeline completo del proyecto.
 
 ## 📊 Principales resultados
 
-El modelo fue evaluado utilizando precisión, recall y F1-score para ambas clases:
+El modelo fue evaluado utilizando precisión, sensibilidad y F1-score para ambas clases:
 - **Clase 0**: No crisis
 - **Clase 1**: Crisis económica
 
@@ -223,7 +223,7 @@ presentacion.pdf
 
 1. Clone the repository
 ```
-git clone <repo_url>
+git clone https://github.com/SandraGM1/ML_Crisis_Prediction.git
 ```
 2. Run the main notebook
 ```
