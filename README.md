@@ -125,9 +125,9 @@ Este enfoque es habitual en **modelos de alerta temprana financiera o económica
 
 ## Autores
 
-Francisco de las Cuevas (LinkedIn | GitHub)  
+Francisco de las Cuevas ([LinkedIn](https://www.linkedin.com/in/francisco-de-las-cuevas-valencia/) | GitHub)  
 Sandra García Moreno (LinkedIn | GitHub)  
-Sergi de la Cruz Núñez (LinkedIn | GitHub)  
+Sergi de la Cruz Núñez ([LinkedIn](https://www.linkedin.com/in/sergi-de-la-cruz-905543257/) | [GitHub](https://github.com/sergidelacruz))  
 
 <hr style="height:6px;border:none;color:#333;background-color:#333;">
 <hr style="height:6px;border:none;color:#333;background-color:#333;">
@@ -253,6 +253,6 @@ This approach is common in **financial or economic early warning models**, where
 
 ## Authors
 
-Francisco de las Cuevas (LinkedIn | GitHub)  
+Francisco de las Cuevas ([LinkedIn](https://www.linkedin.com/in/francisco-de-las-cuevas-valencia/) | GitHub)  
 Sandra García Moreno (LinkedIn | GitHub)  
-Sergi de la Cruz Núñez (LinkedIn | GitHub)  
+Sergi de la Cruz Núñez ([LinkedIn](https://www.linkedin.com/in/sergi-de-la-cruz-905543257/) | [GitHub](https://github.com/sergidelacruz))  
